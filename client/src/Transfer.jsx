@@ -7,6 +7,7 @@ function Transfer({ address, setBalance }) {
 
   const setValue = (setter) => (evt) => setter(evt.target.value);
 
+
   async function transfer(evt) {
     evt.preventDefault();
 
